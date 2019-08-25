@@ -1,0 +1,14 @@
+/* 040403 */
+ .wrap {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	
+}
+.sidebar {
+	grid-column: 1/2;
+	background-color: blue;
+	width
+}
+.content {
+	grid-column: 2/2;
+}

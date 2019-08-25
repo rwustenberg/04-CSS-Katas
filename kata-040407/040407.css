@@ -1,0 +1,47 @@
+/* 040407 */
+body {
+	margin: 0;
+}
+
+.layout{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	height: 96vh;
+	width: 100vw;
+}
+
+.sidebar{
+	grid-column: 1/2;
+	background-color: tomato;
+}
+ 		.topNav {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 55%;
+	border-color: green;
+	border-style: solid;
+	background-color: #FFFFE0;
+	width: 100vw;
+	height:4vh;
+}
+.navBox{
+	border-color: green;
+	border-style: solid;
+}
+.content{
+	grid-column: 2/2;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 18% 18% 18%;
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+	padding: 25px;
+
+}
+
+.grid-box {
+	background-color: white;
+	color: black;
+	/* height: 100%;
+	width: 100%; */
+}

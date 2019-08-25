@@ -1,29 +1,21 @@
 /* 040401 */
- .wrap {
+  .wrap {
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
 
 /* 040402 */
- .wrap {
+  .wrap {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-/* 040403 */
- .wrap {
-	display: grid;
-	grid-template-columns: 1fr 4fr;
-}
-.sidebar {
-	grid-column: 1/2;
-}
-.content {
-	grid-column: 2/2;
-}
+
 /* 040404 */
  .wrap {
 	display: grid;
 	grid-template-columns: 1fr 6fr 2fr;
+	height: 80px;
+	background-color: yellow;
 }
 .sidebar {
 	grid-column: 1/2;
@@ -33,15 +25,4 @@
 }
 .ads {
 	grid-column: 3/3;
-}
-/* 040406 */
-.layout {
-	display: grid;
-	grid-template-columns: 7fr 6fr 5fr 4fr 3fr 2fr 1fr;
-	grid-column-gap: 30px;
-	color: white;
-}
-.content {
-	background-color: #050080;
-	height: 75px;
 }

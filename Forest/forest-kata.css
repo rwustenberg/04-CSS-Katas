@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+}
+ .trees{
+	background-image: url('forest.jpg');
+	width: 100vw;
+	height: 100vh;
+	background-position: center;
+}
+ .box1 {
+	width: 500px;
+	height: 500px;
+	background-color: grey;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+
+}
+.box2 {
+	background-color: blue;
+	width: 120px;
+
+	position: absolute;
+	bottom: 20px;
+	top: 20px;
+	left: 43%;
+
+
+}
+.box3 {
+	background-color: orange;
+	width: 600px;
+	height: 120px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
