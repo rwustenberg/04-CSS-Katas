@@ -1,16 +1,18 @@
 body{
 	margin: 0;
 }
-  /* .trees{
-	background-image: url('forest.jpg');
-	width: 100vw;
+   .trees{
 	height: 100vh;
 	background-position: center;
-} */
+	background-repeat: repeat;
+	position: relative; 
+}
  .box1 {
+	background-image: url('forest.jpg');
+ 	background-position: center;
 	width: 500px;
 	height: 500px;
-	background-image: url('forest.jpg');
+	opacity: 100%;
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
@@ -29,6 +31,7 @@ body{
 }
 .box3 {
 	background-image: url('forest.jpg');
+	background-position: center;
 	width: 600px;
 	height: 120px;
 	position: absolute;
