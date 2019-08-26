@@ -1,34 +1,34 @@
 body{
 	margin: 0;
 }
- .trees{
+  /* .trees{
 	background-image: url('forest.jpg');
 	width: 100vw;
 	height: 100vh;
 	background-position: center;
-}
+} */
  .box1 {
 	width: 500px;
 	height: 500px;
-	background-color: grey;
+	background-image: url('forest.jpg');
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
 
 }
 .box2 {
-	background-color: blue;
+	background-image: url('forest.jpg');
+	background-position: center;
 	width: 120px;
-
 	position: absolute;
 	bottom: 20px;
 	top: 20px;
-	left: 43%;
+	left: 620px;
 
 
 }
 .box3 {
-	background-color: orange;
+	background-image: url('forest.jpg');
 	width: 600px;
 	height: 120px;
 	position: absolute;
